@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: b1568774f0c72f1489e02596e9cc96a1
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      43: 4300000
+    second: gun
+  - first:
+      43: 4300002
+    second: LOD
+  - first:
+      1001: 100100000
+    second: DataTemplate __Singleton__
+  - first:
+      74: 2589628153785863950
+    second: all_in_one
+  - first:
+      74: 7895504612393043372
+    second: bounce_back
+  - first:
+      74: 6708854843041244720
+    second: bounce_front
+  - first:
+      74: -909925154391527489
+    second: bounce_left
+  - first:
+      74: -8483185453862988360
+    second: bounce_right
+  - first:
+      74: 6978967311716557980
+    second: crouch_idle
+  - first:
+      74: 2650396198656936994
+    second: crouch_move
+  - first:
+      74: -9075887099079046321
+    second: crouch_throw
+  - first:
+      74: 1759932460135986115
+    second: swim_idle
+  - first:
+      74: 7251800989691507261
+    second: swim_move
+  - first:
+      74: -5126428914749388425
+    second: getup_back
+  - first:
+      74: -6052665350608981675
+    second: getup_front
+  - first:
+      74: 5671114900530372650
+    second: grenade
+  - first:
+      74: 3390007566566649964
+    second: impact_back
+  - first:
+      74: 2808456103022887186
+    second: impact_front
+  - first:
+      74: -6176349149251041465
+    second: impact_left
+  - first:
+      74: 7239962760561180653
+    second: impact_right
+  - first:
+      74: -3419257869308726280
+    second: walk
+  - first:
+      74: -105954646269293064
+    second: spawn
+  - first:
+      74: -3040043744712575759
+    second: strafe_left
+  - first:
+      74: 4849361718256333132
+    second: strafe_right
+  - first:
+      74: -4182408763613568495
+    second: weapon_crouchidle
+  - first:
+      74: 1687334151534802277
+    second: weapon_crouchmove
+  - first:
+      74: -2737429057145904692
+    second: weapon_crouchreload
+  - first:
+      74: -7327816816439416223
+    second: weapon_idle
+  - first:
+      74: -8964778592543807900
+    second: weapon_movefast
+  - first:
+      74: -1642136498428813788
+    second: weapon_moveslow
+  - first:
+      74: -3166706921599275407
+    second: weapon_reload
+  - first:
+      74: 7047191573315899994
+    second: weapon_spawn
+  - first:
+      74: 565841387293813206
+    second: weapon_strafeleft
+  - first:
+      74: -6488240821990027558
+    second: weapon_straferight
+  - first:
+      74: 6200578666267062213
+    second: run
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 1
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

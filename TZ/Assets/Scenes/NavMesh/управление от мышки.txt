@@ -1,0 +1,43 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
+public class Nav : MonoBehaviour
+{
+    NavMeshAgent navmeshagent;
+    public Camera cachedCam;
+
+    void Start()
+    {
+        navmeshagent = GetComponent<NavMeshAgent>();
+      
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
+
+        if (x!= 0 || z!= 0)
+        {
+            var direction = new Vector3(x, 0, z);
+            var movePosition = transform.position + direction;
+            navmeshagent.SetDestination(movePosition);
+        }
+
+        else
+        {
+            navmeshagent.SetDestination(transform.position);
+        }
+
+        var RayFromCamera = cachedCam.ScreenPointToRay(Input.mousePosition);
+        if(Physics.Raycast(RayFromCamera, out var hit))
+        {
+            var HitPointWithCharY = new Vector3(hit.point.x, transform.position.y, hit.point.z);
+            transform.LookAt(HitPointWithCharY);
+
+        }
+    }
+
+}
